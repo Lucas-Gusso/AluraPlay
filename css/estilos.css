@@ -102,7 +102,7 @@ body {
 }
 
 .menu__itens:hover {
-    background-color: var(--azul-medio);
+    text-decoration: underline;
     transition: .5s;
 }
 
