@@ -1,3 +1,5 @@
+/* Cabeçalho*/
+
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
@@ -9,6 +11,15 @@
 .cabecalho__pesquisar__item {
     display: none;
 }
+
+/* Rodapé */
+
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media */
 
 @media (min-width: 834px) {
     .cabecalho__pesquisar__item {
