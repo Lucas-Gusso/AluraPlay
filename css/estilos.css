@@ -295,8 +295,7 @@ body {
     /* ESTILOS RODAPÉ */
 
     .rodape__container {
-        height: 420px;
-        padding-left: 74px;
+        height: 420px;        
     }
 
 }
@@ -324,8 +323,8 @@ body {
 
     /* ESTILOS RODAPÉ */
 
-    .rodape__container {
-        padding-left: 240px;
+    .rodape__container {   
+        padding-left: 240px;     
         height: 225px;
     }
 
