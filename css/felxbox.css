@@ -111,10 +111,31 @@
     .menu__lista {
         height: auto;       
         padding: 20px 17px 20px 15px;
-        gap:2em;
+        gap:1em;
     }
 
     .menu__itens {
         flex-direction: row;
+        gap:10px        
+    }
+
+    .menu__lista:nth-child(3){
+        flex-direction: column-reverse;
+    }
+
+    .premium {
+        order: 1;
+    }
+    
+    .filmes {
+        order: 2;
+    }
+
+    .jogos {
+        order: 3;
+    }
+
+    .maispagina {
+        order: 4;
     }
 }
