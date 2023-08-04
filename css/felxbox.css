@@ -109,14 +109,12 @@
     }
 
     .menu__lista {
-        height: auto;
-        padding-bottom: 2em;
-        gap: 1.4em;
+        height: auto;       
         padding: 20px 17px 20px 15px;
+        gap:2em;
     }
 
     .menu__itens {
-        flex-direction: row;        
+        flex-direction: row;
     }
-
 }
