@@ -19,45 +19,46 @@
     align-items: center;
     white-space: nowrap;
     overflow: scroll;
-    gap:15px;
+    gap: 15px;
 }
 
 /* Menu Lateral */
 
-    .menu__container {
-        position: fixed;
-        bottom: 0%;
-        height: 74px;
-        width: 100%;        
-    }
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
 
-    .menu__lista {
-        display: flex;
-        justify-content: space-around;
-        height: 100%;                
-    }
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
 
-    .menu__lista li {        
-        align-self: center;
-    }
+.menu__lista li {
+    align-self: center;
+}
 
-    .menu__lista:nth-child(2),
-    .menu__lista:nth-child(3),
-    .menu__lista:nth-child(4) {
-        display: none;
-    }
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
+}
 
-    .menu__itens {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
 
 
 
 /* Rodapé */
 
-.rodape__container {    
+.rodape__container {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
@@ -76,5 +77,46 @@
     .rodape__container {
         justify-content: space-between;
     }
-    
+
+    /* Menu Lateral */
+
+    .menu__container {
+        top: 80px;
+        left: 0;
+        height: auto;
+        width: 75px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 4em;
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .menu__container {
+        width: 240px;
+        overflow: scroll;
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+
+    .menu__lista {
+        height: auto;
+        padding-bottom: 2em;
+        gap: 1.4em;
+        padding: 20px 17px 20px 15px;
+    }
+
+    .menu__itens {
+        flex-direction: row;        
+    }
+
 }
