@@ -22,6 +22,17 @@
     gap: 15px;
 }
 
+/* Vídeo */
+
+.videos__container {
+ margin: 20px;
+}
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 /* Menu Lateral */
 
 .menu__container {
